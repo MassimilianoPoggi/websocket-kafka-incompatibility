@@ -1,0 +1,8 @@
+spring:
+  cloud:
+    stream:
+      kafka:
+        streams:
+          bindings:
+            my-kafka-topic:
+              destination: my-kafka-topic
